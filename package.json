@@ -1,0 +1,35 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "Comparte tus fotos en la comunidad",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "start": "concurrently \"gulp watch\" \"node server\" "
+  },
+  "keywords": [
+    "platzi",
+    "js"
+  ],
+  "author": "Paúl",
+  "license": "MIT",
+  "dependencies": {
+    "empty-element": "^1.0.0",
+    "express": "^4.14.0",
+    "materialize-css": "^0.97.8",
+    "page": "^1.7.1",
+    "pug": "^2.0.0-beta6",
+    "title": "^1.0.0",
+    "yo-yo": "^1.3.1"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.8.0"
+  }
+}
