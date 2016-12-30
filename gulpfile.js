@@ -16,6 +16,9 @@ gulp.task('assets', function(){
 	gulp
 		.src('assets/*.png')
 		.pipe(gulp.dest('public/img'));
+	gulp
+		.src('assets/*.jpg')
+		.pipe(gulp.dest('public/img'));
 		//glob
 	})
 gulp.task('scripts', function(){
